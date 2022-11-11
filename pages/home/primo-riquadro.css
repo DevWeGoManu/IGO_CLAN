@@ -1,0 +1,141 @@
+body {
+    background: black;
+    width: 99%;
+    min-height: 100%;
+}
+
+.container {
+    width: 80%;
+    height: 180vh;
+    float: center;
+    margin: 0 auto;
+}
+
+/*IMMAGINE CENTRALE TITOLO*/
+
+.img-center img {
+    width: 80%;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+/*BOTTONI CON IMMAGINI*/
+
+.container-buttons {
+    width: auto;
+    height: auto;
+    margin: 0 auto; 
+}
+
+.chi_siamo {
+    width: 14%;
+    height: 10%;
+}
+
+.chi-siamo:hover{
+    opacity: 0.7;
+}
+
+.premio_onorificienze {
+    width: 20%;
+}
+
+.premio_onorificienze:hover{
+    opacity: 0.7;
+}
+
+.regolamento {
+    width: 15%;
+}
+
+.regolamento:hover{
+    opacity: 0.7;
+}
+
+.gerarchia_ufficiale {
+    width: 20%;
+}
+
+.contatti {
+    width: 15%;
+}
+
+.img_regolamento {
+    width: 100%;
+    height: 100%;
+    border-radius: 125px;
+}
+.img_regolamento:hover{
+    opacity: 0.7;
+}
+
+.wiki {
+    width: 20%;
+}
+
+.circle-base {
+    border-radius: 50%;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background: grey;
+}
+
+.margin-container-circle {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* container-rettangolo-introduzione-titolo */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    height: 19%;
+    margin-top:7%;
+}
+
+.flex-container  p {
+    color: white;
+    width: fit-content;
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 12%;
+}
+
+.flex-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+
+@media screen and (max-width: 1024px){
+    .flex-container p{
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+        .circle{
+            width: 90px;
+            height: 90px;
+        }
+        .container-buttons{
+            height: 40vh;
+        }
+
+        .flex-container{
+            display: block;
+        }
+        .flex-container img{
+            width: 50%;
+            margin-left: 23%;
+        }
+        .flex-container p{
+            font-size: 2.5vw;
+            width: 98%;
+        }
+}
+

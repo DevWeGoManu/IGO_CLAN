@@ -1,0 +1,81 @@
+.container-sfondo-chi-siamo {
+    width: auto;
+    height: 100vh;
+    margin: 10% auto 0 0;
+    background-image: url("images/chi-siamo/chi-siamo-dekstop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container-sfondo-left {
+    width: 26%;
+    height: auto;
+    float: right;
+    margin-top: 5%;
+    margin-right: 9%;
+}
+
+.container-sfondo-right {
+    width: 45%;
+    height: auto;
+    float: left; 
+    margin-left: 10%;
+    margin-top:12%;
+}
+
+.center-video video {
+ 
+    width: 100%;
+    height: 100%;
+}
+
+.container-sfondo-right p {
+    color: white;
+    font-weight: bolder;
+    font-size: 2.2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-right: 32%;
+    text-shadow: 0 3px 0 #000;
+}
+
+@media  screen and (min-width: 1200px) {
+    .container-sfondo-left {
+ 
+        margin-top: 10%;
+ 
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    
+    .container-sfondo-chi-siamo{
+        background-image: url("images/chi-siamo/chi-siamo.jpg");
+        display: block;
+        height: 71vh;
+    }
+ 
+    .container-sfondo-left{
+        width: 50%;
+        height: auto;
+        float:none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container-sfondo-right{
+        width: 45%;
+        height: auto;
+        float:none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:none
+    }
+    .container-sfondo-right p {
+        margin-right:0;
+        font-size: 3.5vw;
+    }
+
+}
+ 

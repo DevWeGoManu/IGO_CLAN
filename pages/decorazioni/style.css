@@ -1,0 +1,68 @@
+body{
+    width: auto;
+    background:black;
+}
+.container-principale{
+    width: 100%;
+    height: auto;
+}
+
+.blocco-introduzione{
+    width: 70%;
+    height: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.blocco-introduzione p{
+    text-align: center;
+    font-size:2.0vw;
+    color:white;
+}
+
+.container-title{
+    width:auto;
+    height: 15vh;
+}
+
+.container-title img{
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, 0);
+    width: 20%;
+}
+
+.container-flex-nastrini{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+}
+
+.container-blocco-premi{
+    display:flex;
+    justify-content: space-evenly; 
+}
+
+.container-blocco-premi img{
+    width: 100px;
+    height: 100px;
+}
+
+.sotto-container{
+    display: block;
+    width:14%;
+}
+
+.sotto-container img{
+    margin:1%;
+}
+
+h3{
+    color:white;
+    width:auto;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 1.90em;
+    margin-bottom: 0.8em;
+    margin-left: 0;
+    margin-right: 0;
+}

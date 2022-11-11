@@ -1,0 +1,121 @@
+.container {
+    width: 80%;
+    height: 180vh;
+    float: center;
+    margin: 0 auto;
+}
+
+.container-terzo-sfondo-nero {
+    width: 80%;
+    height: 180vh;
+    float: center;
+    margin: 0 auto;
+}
+
+.flex-container-terzo-sfondo-nero {
+    display: flex;
+    justify-content: space-around;
+    height: 31%;
+    margin: 0 auto 10% 0;
+}
+
+.flex-container-terzo-sfondo-nero>p {
+    color: white;
+    width: 20%;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.flex-container-terzo-sfondo-nero img {
+    width: 41%;
+    border-radius: 175px;
+ 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(119, 3, 3);
+    justify-content: space-around;
+    display: flex;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 130px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+@media only screen and (max-width: 800px),
+screen and (max-height: 800px) {
+
+    .container {
+        height: 117vh;
+    }
+
+    .flex-container-terzo-sfondo-nero {
+        display: flex;
+        flex-direction: column;
+        height: 21%;
+        align-items: center;
+        margin-top: 15%;
+    }
+
+    .flex-container-terzo-sfondo-nero img {
+        width: 250px;
+
+        height: 150px;
+    }
+
+    .flex-container-terzo-sfondo-nero>p {
+        width: 60%;
+        font-size: 4vw;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+        height: 93vh;
+        float: center;
+        margin: 0 auto;
+    }
+
+    .flex-container-terzo-sfondo-nero {
+        display: flex;
+        flex-direction: column;
+        height: 21%;
+        align-items: center;
+        margin-top: 15%;
+    }
+
+    .flex-container-terzo-sfondo-nero img {
+        width: 230px;
+        height: 150px;
+        margin-left: 0;
+    }
+
+    .flex-container-terzo-sfondo-nero>p {
+        width: 60%;
+        font-size: 3.5vw;
+    }
+}
