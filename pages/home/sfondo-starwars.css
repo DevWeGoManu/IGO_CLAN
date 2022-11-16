@@ -9,13 +9,10 @@
     background-size: 100%;
 }
 
-
-
 .container-right {
     width: 38%;
-    height: 38.3%;
+    float:left;
     margin-left:15%;
-    margin-top: 8%;
 }
 
 .container-sfondo-starwars p{

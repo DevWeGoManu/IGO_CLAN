@@ -1,5 +1,5 @@
 body {
-    background: black;
+    background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
     width: 99%;
     min-height: 100%;
 }
@@ -33,23 +33,17 @@ body {
 }
 
 .chi-siamo:hover{
-    opacity: 0.7;
+
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
 }
 
 .premio_onorificienze {
     width: 20%;
 }
 
-.premio_onorificienze:hover{
-    opacity: 0.7;
-}
-
 .regolamento {
     width: 15%;
-}
-
-.regolamento:hover{
-    opacity: 0.7;
 }
 
 .gerarchia_ufficiale {
@@ -66,7 +60,8 @@ body {
     border-radius: 125px;
 }
 .img_regolamento:hover{
-    opacity: 0.7;
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
 }
 
 .wiki {
