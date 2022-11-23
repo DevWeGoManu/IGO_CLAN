@@ -1,22 +1,22 @@
-*{
-    border:0;
-    margin:0;
-    padding:0;
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
     vertical-align: baseline;
 }
 
-body{
+body {
     background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
 }
 
-.page-main{
+.page-main {
     border-radius: 3px 0 0 3px;
     min-height: 480px;
     padding: 24px 400px;
     position: relative;
 }
 
-.content{
+.content {
     overflow-x: visible;
     background: white;
     padding: 0px 50px;
@@ -24,12 +24,12 @@ body{
 
 hr {
     border: 0;
-    clear:both;
-    display:block;
-    width: 96%;               
-    background-color:black;
+    clear: both;
+    display: block;
+    width: 96%;
+    background-color: black;
     height: 1px;
- 
-  }
+
+}
 
  
