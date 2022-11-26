@@ -31,7 +31,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
             	$_SESSION['mail'] = $row['mail'];
             	
             	$_SESSION['id'] = $row['id'];
-            	header("Location: /pages/regolamento/tool-bar-editor/");
+            	header("Location: htdocs/pages/regolamento/tool-bar-editor/");
 		        exit();
             }else{
 				header("Location: index.php?error=Incorect mail or password");
