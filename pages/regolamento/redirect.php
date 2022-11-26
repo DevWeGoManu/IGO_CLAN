@@ -2,7 +2,7 @@
 if(isset($_POST['submit']))
 {
     
-    header("Location: /pages/admin/");
+    header("Location: htdocs/pages/admin/");
     exit;
 }
 ?>
